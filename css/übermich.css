@@ -1,0 +1,44 @@
+.über-mich-sec{
+    margin-top: 120px;
+}
+
+.über-mich{
+    align-items: start;
+}
+
+.über-mich .img-holder,
+.über-mich .txt-holder{
+    width: 50%;
+}
+.über-mich .img-holder{
+    position: sticky;
+    top: 80px;
+    left: 0;
+}
+.über-mich .img-holder img{
+    border: 10px solid var(--ac);
+}
+
+@media(max-width: 700px){
+    .über-mich{
+        padding: 0;
+        flex-direction: column;
+        gap: 2em;
+        transform: translateY(-120px);
+    }
+    .über-mich .img-holder,
+    .über-mich .txt-holder{
+        position: inherit;
+        width: 100%;
+    }
+    .über-mich .txt-holder{
+        padding: var(--section-padding);
+        margin-top: 2em;
+    }
+    .über-mich .img-holder img{
+        border: 0;
+        width: 100%;
+        height: auto;
+        aspect-ratio: inherit;
+    }
+}

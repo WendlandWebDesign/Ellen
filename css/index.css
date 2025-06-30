@@ -1,0 +1,29 @@
+.zitat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    text-align: center;
+    margin-top: 3em;
+    padding: var(--page-padding);
+}
+.zitat h2{
+    color: var(--txt-l);
+    font-size: clamp(1.7rem, 3vw, 3rem);
+    font-weight: 900;
+}
+.zitat p{
+    color: var(--se);
+    font-size: 1.05rem;
+}
+
+
+
+.home-rückmeldungen-sec{
+    background-color: var(--se);
+}
+.home-rückmeldungen-sec button{
+    margin-bottom: 3em;
+}
+
+
